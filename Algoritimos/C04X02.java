@@ -4,21 +4,21 @@ public class C04X02 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String nome, cpf, rg, eleitor, motorista, empresa;
-        int salario;
+        Double salario;
         System.out.print("Informe seu nome: ");
-        nome = input.nextLine();
+            nome = input.nextLine();
         System.out.print("Informe seu CPF: ");
-        cpf = input.nextLine();
+            cpf = input.nextLine();
         System.out.print("Informe seu RG: ");
-        rg = input.nextLine();
+            rg = input.nextLine();
         System.out.print("Informe seu título de eleitor: ");
-        eleitor = input.nextLine();
+            eleitor = input.nextLine();
         System.out.print("Informe sua carteira de motorista: ");
-        motorista = input.nextLine();
+            motorista = input.nextLine();
         System.out.print("Informe o nome da empresa em que trabalha: ");
-        empresa = input.nextLine();
+            empresa = input.nextLine();
         System.out.print("Informe seu salário: ");
-        salario = input.nextInt();
+            salario = input.nextDouble();
         System.out.println(
             "FICHA FUNCIONAL DE: ".replace("\t","....................") + nome + 
             "\n\nCPF: \t".replace("\t","....................") + cpf + 

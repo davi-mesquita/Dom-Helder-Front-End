@@ -3,7 +3,7 @@ public class C03X02 {
     //Autor: Davi Mesquita da Fonseca
     public static void main(String[] args) {
         long n1,n2,n3,soma;
-        double media;
+        Double media;
         Scanner input = new Scanner(System.in);
         System.out.print("Informe o primeiro número: ");
         n1 = input.nextLong();
