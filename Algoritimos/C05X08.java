@@ -7,20 +7,20 @@ public class C05X08 {
         valorS = JOptionPane.showInputDialog
         (
             null,
-            "Digite o valor de s: ",
+            "Digite o valor da Área de um setor circular: ",
             "Aula de java",
             JOptionPane.QUESTION_MESSAGE
         );
         valorA = JOptionPane.showInputDialog
         (
             null,
-            "Digite o valor de a: ",
+            "Digite o valor de ângulo: ",
             "Aula de java",
             JOptionPane.QUESTION_MESSAGE
         );
         s = Double.parseDouble(valorS);
         a = Double.parseDouble(valorA);
-        r = (s * Math.sin(a)) / (1 - Math.cos(a));
+        r = Math.sqrt(s / (Math.PI * a / 360));
         JOptionPane.showMessageDialog
         (
             null,

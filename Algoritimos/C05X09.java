@@ -2,23 +2,37 @@ import javax.swing.JOptionPane;
 public class C05X09 {
     //Autor: Davi Mesquita da Fonseca
     public static void main(String[] args) {
-        double fahrenheit, celsius, kelvin;
-        String entrada;
-        entrada = JOptionPane.showInputDialog
+        double N1, N2, N3;
+        String n1, n2, n3;
+        n1 = JOptionPane.showInputDialog
         (
             null,
-            "Digite a temperatura em Celsius: ",
+            "Digite a sua nota: ",
             "Aula de java",
             JOptionPane.QUESTION_MESSAGE
         );
-        celsius = Double.parseDouble(entrada);
-        fahrenheit = (celsius * 1.8) + 32;
-        kelvin = celsius + 273.15;
+        n2 = JOptionPane.showInputDialog
+        (
+            null,
+            "Digite a sua nota: ",
+            "Aula de java",
+            JOptionPane.QUESTION_MESSAGE
+        );
+        n3 = JOptionPane.showInputDialog
+        (
+            null,
+            "Digite a sua nota: ",
+            "Aula de java",
+            JOptionPane.QUESTION_MESSAGE
+        );
+        N1 = Double.parseDouble(n1);
+        N2 = Double.parseDouble(n2);
+        N3 = Double.parseDouble(n3);
+        double mediaPonderada = (N1 * 2 + N2 * 3 + N3 * 5) / 10;
         JOptionPane.showMessageDialog
         (
             null,
-            "A temperatura em Fahrenheit é: " + fahrenheit + "°F" +
-            "\nA temperatura em Kelvin é: " + kelvin + "K",
+            "A sua média ponderada é: " + mediaPonderada,
             "Aula de java",
             JOptionPane.INFORMATION_MESSAGE
         );
