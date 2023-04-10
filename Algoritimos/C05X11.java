@@ -2,23 +2,21 @@ import javax.swing.JOptionPane;
 public class C05X11 {
     //Autor: Davi Mesquita da Fonseca
     public static void main(String[] args) {
-        double fahrenheit, celsius, kelvin;
-        String entrada;
+        String entrada, banco,agencia,sequencial;
         entrada = JOptionPane.showInputDialog
         (
             null,
-            "Digite a temperatura em Celsius: ",
+            "Digite o número do cheque: ",
             "Aula de java",
             JOptionPane.QUESTION_MESSAGE
         );
-        celsius = Double.parseDouble(entrada);
-        fahrenheit = (celsius * 1.8) + 32;
-        kelvin = celsius + 273.15;
+        banco = entrada.substring(0,3);
+        agencia = entrada.substring(3,6);
+        sequencial = entrada.substring(6,9);
         JOptionPane.showMessageDialog
         (
             null,
-            "A temperatura em Fahrenheit é: " + fahrenheit + "°F" +
-            "\nA temperatura em Kelvin é: " + kelvin + "K",
+            "O número do cheque é: \n" + banco + "\n" + agencia + "\n" + sequencial,
             "Aula de java",
             JOptionPane.INFORMATION_MESSAGE
         );
