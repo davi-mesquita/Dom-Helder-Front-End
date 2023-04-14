@@ -32,7 +32,7 @@ public class C06X04 {
             JOptionPane.showMessageDialog
             (
                 null,
-                "Seu IMC é: " + imc + "\n Você está desnutrida.",
+                "Seu IMC é: " + imc + "\n "+ nome + " está desnutrida.",
                 "Aula de Java",
                 JOptionPane.INFORMATION_MESSAGE
             );
@@ -40,7 +40,7 @@ public class C06X04 {
             JOptionPane.showMessageDialog
             (
                 null,
-                "Seu IMC é: " + imc + "\n Você está abaixo do peso.",
+                "Seu IMC é: " + imc + "\n "+ nome + " está abaixo do peso.",
                 "Aula de Java",
                 JOptionPane.INFORMATION_MESSAGE
             );
@@ -48,7 +48,7 @@ public class C06X04 {
             JOptionPane.showMessageDialog
             (
                 null,
-                "Seu IMC é: " + imc + "\n Você está no peso ideal.",
+                "Seu IMC é: " + imc + "\n "+ nome + " está no peso ideal.",
                 "Aula de Java",
                 JOptionPane.INFORMATION_MESSAGE
             );
@@ -56,7 +56,7 @@ public class C06X04 {
             JOptionPane.showMessageDialog
             (
                 null,
-                "Seu IMC é: " + imc + "\n Você está acima do peso.",
+                "Seu IMC é: " + imc + "\n "+ nome + " está acima do peso.",
                 "Aula de Java",
                 JOptionPane.INFORMATION_MESSAGE
             );
@@ -64,7 +64,7 @@ public class C06X04 {
             JOptionPane.showMessageDialog
             (
                 null,
-                "Seu IMC é: " + imc + "\n Você está obesa.",
+                "Seu IMC é: " + imc + "\n "+ nome + " está obesa.",
                 "Aula de Java",
                 JOptionPane.INFORMATION_MESSAGE
             );
