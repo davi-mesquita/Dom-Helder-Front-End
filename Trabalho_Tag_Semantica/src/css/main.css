@@ -1,0 +1,62 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+  background-color: var(--color-primary);
+}
+.container{
+  background-color: var(--background-color);
+}
+.navbar{
+    color: var(--color-text-primary);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.navbar .about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+}
+.navbar .about h2{
+  margin: 0;
+  padding: 0;
+}
+.navbar .about #SobreMim{
+  background-color: transparent;
+  color: var(--color-text-primary);
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+}
+.navbar ul{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul li{
+    list-style: none;
+} 
+.navbar ul li a{
+    text-decoration: none;
+    color: var(--color-text-primary);
+} 
+.navbar ul li a:hover{
+    color: var(--color-text-primary);
+    text-decoration: underline;
+}
+main,section{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
